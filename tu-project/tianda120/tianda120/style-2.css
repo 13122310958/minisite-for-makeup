@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, h1, h2, h3, h4, p, blockquote, a, abbr, address, cite, em, img, ins, strong, dl, dt, dd, ol, ul, li, form, label, legend, table, caption {margin: 0; padding: 0;  list-style-type: none; }
+body {background:#603c00; width: 100%; margin:0 auto; }
+.cl {clear: both;}
+a { text-decoration:none; font-size:12px; color:#333333;}
+
+#warp { width:998px; margin:0 auto; padding:0;}
+.bannerzt{width:1200px;height:569px; margin:0 auto; padding:0;}
+.bannerzt img{width:1200px;height:72px;margin:0 auto; padding:0;border:0;display:block;}
+#content{width:998px; margin:0 auto;overflow:hidden; background:url("content_bg.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/content_bg.jpg*/ repeat-y;}
+#content p { font-size:12px; line-height:22px; font-family:Arial, Helvetica, sans-serif; color:#4d4d4d;}
+#biaoyu_bg { width:945px; height:142px; margin:0 auto; background:#e3d8b9;}
+#biaoyu_bg h2{ width:368px; height:54px; margin:0 auto; background:url("h2_bg.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/h2_bg.jpg*/ no-repeat; color:#FFF; line-height:55px; font-size:18px; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+#biaoyu_bg blockquote {color: #7a6306; line-height:22px; padding: 16px 20px 25px 20px; text-indent: 2em; font-size:14px;}
+#line { width:945px; height:20px; margin:0 auto; margin-top:1px; background:url("line.gif")/*tpa=http://www.tianda120.com/subject/quban/images/line.gif*/ repeat-x;}
+#yiqi_a { width:998px; height:290px; margin:0 auto; background:url("yiqi_a.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/yiqi_a.jpg*/ no-repeat;}
+#gongxiao { width:620px; height:250px; float:left; margin-left:55px; margin-top:20px; display:inline;}
+#biaoqian1 { width:328px; height:52px; float:left; background:url("biaoqian.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/biaoqian.jpg*/ no-repeat; overflow:hidden;}
+#biaoqian2 { width:189px; height:52px; float:left; background:url("biaoqian2.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/biaoqian2.jpg*/ no-repeat; overflow:hidden;}
+#biaoqian3 { width:189px; height:52px; float:left; background:url("biaoqian3.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/biaoqian3.jpg*/ no-repeat; overflow:hidden;}
+#biaoqian4 { width:189px; height:52px; float:left; background:url("biaoqian4.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/biaoqian4.jpg*/ no-repeat; overflow:hidden;}
+#biaoyu { width:252px; height:24px; float:left; padding:18px 208px 10px 18px;}
+#gxwz { width:540px; height:186px; float:left; padding:12px 0 0 10px;}
+#yiqi_b { width:998px; height:291px; margin:0 auto; background:url("yiqi_b.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/yiqi_b.jpg*/ no-repeat;}
+#yiqi_bg { width:517px; height:292px; float:left; background:url("bg.png")/*tpa=http://www.tianda120.com/subject/quban/images/bg.png*/ no-repeat;}
+#yiqi_jieshao { width:190px; height:250px; float:left; margin-top:33px; overflow:hidden;}
+#youshi { width:945px; margin:0 auto; background:#f4f0e4;}
+#biaoyu_bg2 h2{ width:368px; height:54px; line-height:58px; margin:0 auto; background:url("h2_bg2.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/h2_bg2.jpg*/ no-repeat; color:#FFF;  font-size:16px; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+#biaoyu_bg2 h2 img {margin:0 auto;margin-top:7px;}
+#youshi_sub{width:945px; height:363px; overflow:hidden; padding-bottom:40px; margin-top:45px; background:url("youshi_bg.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/youshi_bg.jpg*/ no-repeat 341px 23px;}
+#youshi_1 { width:320px; height:145px; float:left; margin-left:20px; padding:10px 10px; background:#f7eeeb; display:inline;}
+#youshi_2 { width:320px; height:145px; float:left; margin-left:230px; padding:10px 10px; background:#f7eeeb; display:inline;}
+#youshi_3 { width:315px; height:170px; float:left; margin-left:10px; margin-top:5px; padding:10px 10px; background:#f7eeeb; display:inline;}
+#youshi_4 { width:315px; height:110px; float:left; margin-left:253px; margin-top:43px; padding:10px 10px; background:#f7eeeb; display:inline;}
+#youshi_1 h2, #youshi_2 h2, #youshi_3 h2, #youshi_4 h2{ font-size:16px; font-family:Arial, Helvetica, sans-serif; line-height:32px; color:#7a6306;}
+#renzhen{padding-bottom:15px; padding-top:15px; width:945px; height:185px; margin:0 auto;}
+#renzhen img{margin:0 37px;}
+
+#anli{ width:945px; height:310px; margin:0 auto; background:#f4f0e4;}
+#anli p{overflow:hidden;padding-left:5px;}
+#anli a{float:left;padding-bottom:20px;color:#b03b7d;font-weight:bold;text-align:center;line-height:24px;}
+#anli a img{display:block;}
+#mingxing{ width:945px; height:380px; margin:0 auto; background:#f4f0e4;}
+#mingxing a{display:inline-block;width:277px;padding:10px 14px 16px 16px;}
+#mingxing a img{border:1px solid #5f4803;}
+#mingxing a span{display:block;padding-top:4px;text-indent:2em;color:#666;line-height:20px; font-size:12px;}
+#mingxing .starbg{padding-left:19px; background:url("starbg.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/starbg.jpg*/ no-repeat;}
+#zhuanjia { width:945px; height:547px; margin:0 auto; background:#f4f0e4;}
+#zhuanjia ins{display:block;width:897px;height:5px;margin:0 auto;background:#7d6506;color:#fff;font-weight:bold;text-align:center; margin-top:10px;}
+#subdoctor{margin-bottom:12px;padding:30px 27px 0 437px;background:url("doctor.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/doctor.jpg*/ no-repeat 13px 8px;}
+#subdoctor dl{padding:13px 0 0 8px;margin-left:22px;}
+#subdoctor dl dt{color:#6a0138;font-size:14px;font-weight:bold;}
+#subdoctor dl dd{padding:10px 0;text-indent:2em;line-height:20px; font-size:12px;}
+#yuedu { width:945px; height:180px; margin:0 auto; background:#f4f0e4;}
+#yuedu ul{overflow:hidden; padding-bottom:10px;} #yuedu ul li{float:left;padding:0 70px 20px 70px;}
+#yuedu ul li a{display:block;padding-left:12px;background:url("readcon.gif")/*tpa=http://www.tianda120.com/subject/quban/images/readcon.gif*/ no-repeat 0 center; color:#2e2e2e; line-height:24px;}
+#yuedu #yuedu_bg{background:url("read_bg.jpg")/*tpa=http://www.tianda120.com/subject/quban/images/read_bg.jpg*/ no-repeat;}
+a:link{color:#333333;}
+
+.footer{margin:10px auto 0;width:1000px;border-top:1px solid #ccc;background:#fff url("bg_footer1.jpg")/*tpa=http://www.tianda120.com/templets/images/bg_footer1.jpg*/ 0 0 repeat-x;}
+.footer1 span.footnav{width:auto;display:block;text-align:center;overflow:hidden;zoom:1;}
+.footer1 span.footnav a{padding:0 8px;display:inline;line-height:35px;}
+.footer1 .copy{padding-top:25px;margin:0 auto;width:840px;overflow:hidden;zoom:1; font-size:12px;}
+.footer1 .copy img{padding-right:20px;width:228px;float:left;border-right:1px dotted #cacaca;}
+.footer1 .copy strong{display:block;float:left;padding-left:20px;margin-top:15px;font-weight:normal;}
+.footer1 .copy em{color:#a50e0e;}

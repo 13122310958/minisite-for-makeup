@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>上海华美</title>
+<script type="text/javascript">
+if (top.location.href == "http://www.shhuamei.cn/wap/") {
+	top.location = "http://wap.shhuamei.cn/";
+}
+</script>
+<style>
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	width:100%;
+	height:100%;
+	background:url(/images/404/404.jpg) no-repeat center top scroll;
+}
+.opacity_box, .text_box {
+	top:90px;
+	left:50%;
+	margin-left:-268px;
+	width:536px;
+	height:338px;
+	position:absolute;
+}
+.opacity_box {
+	background-color:#FFF;
+    filter:alpha(opacity:50);
+	opacity:0.5;
+}
+.text_box h1 {
+	position:absolute;
+	left:120px;
+	top:30px;
+	font-size:145px;
+	color:#000;
+	font-family:Arial;
+	font-weight:bold;
+}
+.text_box p {
+	position:absolute;
+	left:120px;
+	top:200px;
+	font-family:"微软雅黑";
+	font-size:26px;
+}
+.text_box a {
+	position:absolute;
+	left:162px;
+	bottom:30px;
+	width:213px;
+	height:52px;
+	background:url(/images/404/btn_bg.png) no-repeat scroll;
+}
+.text_box a:hover {
+	background:url(/images/404/btn_bg.png) no-repeat left -51px scroll;
+}
+</style>
+</head>
+<body>
+<div class="opacity_box"></div>
+<div class="text_box">
+  <h1 title="404 Error">404!</h1>
+  <p>您进错房间了，手术中...</p>
+  <a href="/"></a></div>
+</body>
+</html>

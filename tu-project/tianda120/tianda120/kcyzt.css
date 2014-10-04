@@ -1,0 +1,70 @@
+img{ vertical-align:top; border:none;}
+.top_bj{ background:url("kcy_bj_01.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcy_bj_01.jpg*/ no-repeat center top; overflow:hidden;}
+.banner{ width:966px; height:471px; margin:0 auto;}
+.daodu{ width:966px; height:110px; margin:0 auto; background:url("kcyzt_06.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_06.jpg*/;}
+.daodu_zi{ width:740px; font-size:14px; line-height:24px; color:#d6f7fb; padding:15px 0 0 170px;}
+.main{ width:966px; height:2550px; margin:0 auto; background-color:#FFF; padding-top:20px;}
+.kcy{ width:946px; height:30px; margin:0 auto;}
+.kcy_bao{ width:946px; height:280px; margin:0 auto;}
+.kcy_left{ width:207px; height:235px; margin:0; float:left; display:inline; margin:30px 0 0 25px;}
+.kcy_right{ width:660px; height:210px; margin:0; float:left; display:inline; line-height:24px; margin:50px 0 0 30px;}
+.kcy_right span{ font-size:14px; font-weight:bold; color:#056e7c;}
+.youshi{ width:946px; height:30px; margin:0 auto; margin-top:20px;}
+.youshi_bao{ width:946px; height:350px; margin:0 auto; background:url("kcyzt_26.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_26.jpg*/ no-repeat; background-position:370px 100px;}
+.youshi_left{ width:330px; height:330px; margin:30px 0 0 30px; float:left; display:inline;}
+.youshi_left_t{ width:330px; height:140px; margin:0; border-bottom:1px #a1a1a1 dotted;}
+.youshi_left_img{ width:130px; height:32px; margin:0;}
+.youshi_left_zi{ margin-top:10px; line-height:24px;}
+.youshi_left_zi span{ font-size:14px; font-weight:bold;}
+.youshi_left_b{ width:330px; height:140px; margin:0; margin-top:30px;}
+.youshi_right{ width:330px; height:330px; margin:30px 0 0 240px; float:left; display:inline;}
+.anli{ width:946px; height:30px; margin:0 auto; margin-top:20px;}
+.anli_bao{ width:946px; height:320px; margin:0 auto; }
+.anli_bao_left{ width:517px; height:247px; margin:30px 0 0 30px; float:left; display:inline;}
+.anli_bao_right{ width:330px; height:270px; margin:30px 0 0 30px; float:left; display:inline;}
+.anli_bao_right_t{ width:330px; height:22px; margin:0; border-bottom:1px #1e4247 solid; font-weight:bold; color:#0e474f; line-height:21px;}
+.anli_bao_right_b{ width:330px; height:220px; margin-top:15px;}
+.anli_bao_right_b ul{ margin:0; padding:0; list-style-type:none;}
+.anli_bao_right_b ul li{ width:300px; background:url("kcyzt_41.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_41.jpg*/ no-repeat; background-position:0px 8px; padding-left:15px; margin-top:5px; line-height:24px;}
+.liyou{ width:946px; height:30px; margin:0 auto; margin-top:5px;}
+.liyou_bao{ width:946px; height:350px; margin:0 auto; background:url("kcyzt_56.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_56.jpg*/ no-repeat; background-position:410px 60px; }
+.liyou_bao_left{ width:360px; height:310px; margin:20px 0 0 30px; float:left; display:inline;}
+.liyou_bao_left_t{ width:360px; height:140px; margin:0; background:url("kcyzt_53.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_53.jpg*/ no-repeat;}
+.liyou_bao_left_t_top{ width:310px; height:40px; margin-left:50px; border-bottom:1px #1e4247 solid; font-weight:bold; font-size:13px; color:#3c3c3c; line-height:40px;}
+.liyou_bao_left_t_bottom{ width:310px;margin-left:50px; line-height:24px; margin-top:10px; color:#9b9b9b;}
+.liyou_bao_left_b{ width:360px; height:140px; margin:0; background:url("kcyzt_53.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_53.jpg*/ no-repeat; margin-top:40px;}
+.liyou_bao_right{ width:360px; height:310px; margin:20px 0 0 160px; float:left; display:inline;}
+.zhuanjia{ width:946px; height:30px; margin:0 auto; margin-top:15px;}
+.zhuanjia_bao{ width:946px; height:233px; margin:0 auto; }
+.zhuanjia_bao_left{ width:446px; height:199px; margin:30px 0 0 30px; float:left; display:inline;}
+.zhuanjia_bao_left_img{ width:160px; height:199px; margin:0; float:left; display:inline;}
+.zhuanjia_bao_left_js{ width:260px; height:199px; margin-left:5px; float:left; display:inline;}
+.zhuanjia_bao_left_js2{ margin-top:10px; line-height:24px;}
+.zhuanjia_bao_left_js2 span{color:#000;}
+.zhuanjia_bao_left_js3{ margin-top:10px;}
+.zhuanjia_bao_right{ width:446px; height:199px; margin:30px 0 0 20px; float:left; display:inline;}
+.shebei{ width:946px; height:30px; margin:0 auto; margin-top:20px;}
+.shebei_bao{ width:946px; height:220px; margin:0 auto;}
+.shebei_bao_left{ width:169px; height:184px; margin:20px 0 0 30px; float:left; display:inline;}
+.shebei_bao_right{ width:700px; height:124px; margin:80px 0 0 20px; float:left; display:inline; line-height:24px;}
+.shebei_bao_right span{ font-size:14px; font-weight:bold; color:#474747;}
+.tuibian{ width:946px; height:30px; margin:0 auto; margin-top:20px;}
+.tuibian_bao{ width:946px; height:270px; margin:0 auto;}
+.tuibian_bao_left{ width:391px; height:184px; margin:30px 0 0 30px; float:left; display:inline;}
+.tuibian_bao_right{ width:470px; height:240px; margin:30px 0 0 20px; float:left; display:inline; line-height:24px;}
+.tuibian_bao_right ul{ margin:0; padding:0; list-style-type:none;}
+.tuibian_bao_right ul li{ font-size:14px; height: font-size:14px; line-height:27px; margin-top:15px;  border-bottom:1px #474747 dotted; }
+.li1{ width:335px; background:url("kcyzt_92.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_92.jpg*/ no-repeat; padding-left:36px;}
+.li2{ margin-left:30px; width:280px; background:url("kcyzt_96.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_96.jpg*/ no-repeat; padding-left:36px;}
+.li3{ margin-left:50px; width:375px; background:url("kcyzt_100.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_100.jpg*/ no-repeat; padding-left:36px;}
+.li4{ margin-left:30px; width:400px; background:url("kcyzt_104.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_104.jpg*/ no-repeat; padding-left:36px;}
+.li5{ width:260px; background:url("kcyzt_108.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_108.jpg*/ no-repeat; padding-left:36px;}
+.yuedu{ width:946px; height:30px; margin:0 auto; margin-top:30px;}
+.yuedu_bao{ width:946px; height:150px; margin:0 auto;}
+
+.tuijian_wz{ width:873px; height:130px; margin:0 auto; margin-top:15px;}
+.tuijian_wz ul{ width:245px; margin:0; padding:0; list-style-type:none; float:left; display:inline; margin-left:60px;}
+.tuijian_wz span ul{ margin:0;}
+.tuijian_wz ul li{ background-image:url("kcyzt_dian_111.jpg")/*tpa=http://www.tianda120.com/subject/kaociya/images/kcyzt_dian_111.jpg*/; background-repeat:no-repeat; background-position:5px 16px; padding-left:15px; line-height:35px; color:#878787; font-size:14px;}
+.tuijian_wz ul li a{ color:#878787; font-size:14px; line-height:35px; text-decoration:none;}
+.tuijian_wz ul li a:hover{ color:#000; font-size:14px; line-height:35px;  text-decoration:none;}

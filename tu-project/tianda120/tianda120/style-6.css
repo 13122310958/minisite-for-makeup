@@ -1,0 +1,166 @@
+@charset "utf-8";
+/******************通用代码***********************/
+html,body,ul,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,form{margin:0; padding:0}
+ul,li{list-style:none;}
+.clear{ clear:both; height:0; overflow:hidden}
+.l{margin:0 auto;float:left;overflow:hidden}
+.r{margin:0 auto;float:right;overflow:hidden}
+a{text-decoration:none;color:#666;}
+a:hover{color:#000;text-decoration:none;}
+img{vertical-align:top; border:0}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+.clear{ font-size:0; line-height:0; clear:both; overflow:hidden; zoom:1;}
+.blank{height:10px;margin:0 auto;font-size:0; line-height:0; clear:both; overflow:hidden;}
+body{font-family:"宋体";font-size:12px;background:#ddd;color:#666;margin:0 auto;}
+.rsp{width:100%;height:28px;line-height:28px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:0px;filter:alpha(opacity=50);opacity:0.5;}
+.text{position:absolute;left:0;bottom:0px;width:100%;height:28px;line-height:28px;overflow:hidden;}
+.text h3{width:100%;height:28px;line-height:28px;margin:0 auto;text-align:center;color:#fff;font-family:"宋体";font-size:12px;text-decoration:none;cursor:pointer;}
+.sfhover .rsp{width:100%;height:28px;line-height:28px;overflow:hidden;position:absolute;background:#d5d5d5;bottom:0px;left:0px;}
+.sfhover .text{position:absolute;left:0;bottom:0px;width:100%;height:28px;line-height:28px;overflow:hidden;}
+.sfhover .text h3{width:100%;height:28px;line-height:28px;margin:0 auto;text-align:center;color:#fff;font-family:"宋体";font-size:12px;text-decoration:none;cursor:pointer;}
+
+/*banner css*/
+#bannerzt{width:100%;height:505px;margin:0 auto;background:#ddd;position:relative;z-index:99;}
+.bannerzt{width:100%;height:505px;margin:0 auto;background:#ddd;position:relative;z-index:99;}
+.banner_con{height:460px;margin:0 auto;background:url("topbg_01-2.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/topbg_01.jpg*/ center top no-repeat;overflow:hidden;display:block;}
+.banner1{width:980px;height:100px;background:url("header_02.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/header_02.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner2{width:980px;height:100px;background:url("header_04.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/header_04.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner3{width:980px;height:100px;background:url("header_05.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/header_05.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner4{width:980px;height:100px;background:url("header_06.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/header_06.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;position:relative;}
+.banner4 .btnzx{width:980px;height:100px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+.banner5{width:980px;height:60px;background:url("header_07.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/header_07.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+#daohang{position:absolute;top:460px;left:0px;margin:0 auto;z-index:99999;background:#0a0d1c;width:100%;height:45px;}
+#dhmenu{z-index:99999;width:100%;height:45px;margin:0 auto;}
+.menu{width:988px;height:45px;margin:0 auto;z-index:99999;}
+.menu a{width:196px;height:45px;line-height:45px;margin:0 auto;background:none;text-align:center;border:0;font-family:"微软雅黑";font-size:14px;color:#fff;display:block;z-index:99999;text-decoration:none;overflow:hidden;cursor:pointer;float:left;}
+.menu a.titOn,.menu a:hover{width:196px;height:45px;line-height:45px;background:none;margin:0 auto;color:#fff;text-align:center;font-family:"微软雅黑";font-size:14px;text-decoration:none;display:block;z-index:99999;overflow:hidden;float:left;}
+.menu a.last{margin:0 auto;margin-right:0;overflow:hidden;cursor:pointer;float:right;}
+.menu a.lasta.titOn,.menu a.lasta:hover{margin:0 auto;margin-right:0;overflow:hidden;cursor:pointer;float:right;}
+#One,#Two,#Three,#Four,#Five,#Six,#Seven,#Eight,#Weibo,#Wqhg{width:988px;margin:0 auto;}
+.btnzxzx{width:110px;height:32px;display:block;overflow:hidden;position:absolute;top:15px;right:42px;cursor:pointer;}
+/*One css*/
+.OneTitle{width:988px;height:60px;background:url("One_03.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/One_03.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.OneCon{width:988px;height:327px;background:url("One_05.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/One_05.jpg*/ repeat-y;margin:0 auto;overflow:hidden;}
+.OneCon2{width:980px;height:327px;margin:0 auto;overflow:hidden;}
+
+.OneConleft{width:253px;height:327px;float:left;display:inline;overflow:hidden;}
+.OneConleft img{width:253px;height:327px;margin:0 auto;border:0;}
+.OneConright{width:727px;height:327px;background:url("One_10.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/One_10.jpg*/ right bottom no-repeat;float:left;display:inline;overflow:hidden;position:relative;}
+.OneConright .One1{position:absolute;top:0px;left:0px;width:214px;height:71px;overflow:hidden;}
+.OneConright .One1 img{width:214px;height:71px;margin:0 auto;border:0;}
+.OneConright .One2{position:absolute;top:71px;left:0px;width:415px;height:160px;border-bottom:1px solid #0a0d1c;overflow:hidden;}
+.OneConright .One2 h3{width:415px;height:20px;line-height:20px;margin:0 auto;text-indent:5px;text-align:left;font-family:"微软雅黑";font-size:13px;color:#000;display:block;overflow:hidden;cursor:pointer;}
+.OneConright .One2 p{width:415px;height:44px;line-height:22px;margin:15px auto 0 auto;text-align:left;font-family:"宋体";font-size:13px;color:#666;display:block;overflow:hidden;cursor:pointer;}
+
+.OneConright .One3{position:absolute;top:248px;left:0px;width:418px;height:66px;line-height:22px;text-align:left;font-family:"宋体";font-size:13px;color:#666;overflow:hidden;}
+.OneConright .One3 p{width:418px;height:66px;line-height:22px;text-align:left;font-family:"宋体";font-size:13px;color:#666;overflow:hidden;}
+.OneConright a.zxzx{position:absolute;right:144px;top:267px;width:122px;height:34px;display:block;overflow:hidden;cursor:pointer;}
+
+.OneBot{width:988px;height:4px;background:url("One_13.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/One_13.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+/*Two css*/
+.TwoTitle{width:988px;height:60px;background:url("Two_15.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_15.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon{width:988px;height:1235px;background:url("Two_16.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_16.jpg*/ repeat-y;margin:0 auto;overflow:hidden;}
+.TwoCon1{width:980px;height:311px;margin:10px auto 0 auto;overflow:hidden;position:relative;}
+.TwoCon1left{width:591px;height:311px;margin:0 auto;float:left;display:inline;overflow:hidden;position:relative;}
+.TwoCon1right{width:389px;height:311px;background:url("Two_23.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_23.jpg*/ right bottom no-repeat;margin:0 auto;float:left;display:inline;overflow:hidden;position:relative;}
+.TwoCon1left .T01{width:591px;height:31px;margin:0 auto;overflow:hidden;}
+.TwoCon1left .T01 p{width:465px;height:31px;line-height:31px;margin:0 auto 0 70px;text-align:left;font-family:"微软雅黑";font-size:15px;color:#666;overflow:hidden;}
+.TwoCon1left .T02{width:591px;height:256px;background:url("Two_21.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_21.jpg*/ right no-repeat;overflow:hidden;}
+
+.TwoCon1right .T02{position:absolute;top:37px;left:0px;width:235px;height:160px;line-height:20px;text-align:left;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.TwoCon1right .T02 p{width:235px;height:20px;line-height:22px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.TwoCon1right a.zxzx{position:absolute;left:15px;bottom:40px;width:145px;height:40px;display:block;overflow:hidden;cursor:pointer;}
+
+.TwoCon2{width:988px;height:71px;background:url("Two_29.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_29.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;}
+.TwoCon3{width:988px;height:10px;background:url("Two_30.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_30.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon4{width:988px;height:93px;background:url("Two_32.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_32.jpg*/ repeat-y;margin:0 auto;overflow:hidden;}
+.TwoCon4 .T01{width:900px;height:80px;line-height:20px;margin:0 auto;text-align:left;font-family:"微软雅黑";font-size:13px;color:#666;}
+.TwoCon5{width:980px;height:213px;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.TwoCon5 .T01{position:absolute;top:0px;left:0px;width:283px;height:213px;background:url("Two_33.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_33.jpg*/ no-repeat;text-align:left;color:#666;overflow:hidden;}
+.TwoCon5 .T02{position:absolute;top:0px;left:341px;width:281px;height:213px;background:url("Two_35.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_35.jpg*/ no-repeat;overflow:hidden;}
+.TwoCon5 .T03{position:absolute;top:0px;left:681px;width:278px;height:213px;background:url("Two_37.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_37.jpg*/ no-repeat;overflow:hidden;}
+.TwoCon5 .rsp{width:100%;height:43px;line-height:18px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:20px;filter:alpha(opacity=50);opacity:0.5;}
+.TwoCon5 .text{position:absolute;left:8px;bottom:0px;width:100%;height:40px;line-height:18px;overflow:hidden;}
+.TwoCon5 .text h3{width:240px;height:40px;line-height:18px;margin:0 auto;text-align:left;color:#fff;font-family:"微软雅黑";font-size:13px;text-decoration:none;cursor:pointer;}
+.TwoCon5 .T02 .rsp{width:100%;height:43px;line-height:18px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:18px;filter:alpha(opacity=50);opacity:0.5;}
+.TwoCon5 .T03 .rsp{width:100%;height:43px;line-height:18px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:16px;filter:alpha(opacity=50);opacity:0.5;}
+
+.TwoCon6{width:980px;height:503px;margin:25px auto 0 auto;overflow:hidden;}
+.TwoCon6left{width:637px;height:489px;margin:0 auto;float:left;overflow:hidden;position:relative;z-index:10;}
+.TwoCon6right{width:328px;height:489px;margin:0 auto;text-align:left;color:#666;float:right;overflow:hidden;position:relative;z-index:10;}
+
+.TwoCon6left1{width:637px;height:394px;background:url("Two_42.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_42.jpg*/ left no-repeat;overflow:hidden;position:relative;z-index:10;}
+.TwoCon6left1img{position:absolute;left:107px;top:75px;width:428px;height:276px;overflow:hidden;z-index:10;}
+.TwoCon6left1img li{width:428px;height:276px;overflow:hidden;}
+.TwoCon6left1img li img{width:428px;height:276px;overflow:hidden;}
+
+.TwoCon6left1btn{position:absolute;left:126px;bottom:0px;width:388px;height:34px;display:block;overflow:hidden;z-index:10;}
+.TwoCon6left1btn li{width:121px;height:34px;margin:0 auto;list-style:none;display:block;overflow:hidden;cursor:pointer;}
+.TwoCon6left1btn li#li1{position:absolute;left:0px;top:0px;margin-left:0px;background:url("btnqhOff1.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff1.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li1.titOn,.TwoCon6left1btn li#li1.active{position:absolute;left:0px;top:0px;margin-left:0px;background:url("btnqhOn1.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOn1.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li1.titOff{position:absolute;left:0px;top:0px;margin-left:0px;background:url("btnqhOff1.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff1.jpg*/ top no-repeat;}
+
+.TwoCon6left1btn li#li2{position:absolute;left:131px;top:0px;background:url("btnqhOff2.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff2.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li2.titOn,.TwoCon6left1btn li#li2.active{position:absolute;left:131px;top:0px;background:url("btnqhOn2.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOn2.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li2.titOff{position:absolute;left:131px;top:0px;margin-left:10px;background:url("btnqhOff2.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff2.jpg*/ top no-repeat;}
+
+.TwoCon6left1btn li#li3{position:absolute;left:262px;top:0px;background:url("btnqhOff3.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff3.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li3.titOn,.TwoCon6left1btn li#li3.active{position:absolute;left:262px;top:0px;background:url("btnqhOn3.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOn3.jpg*/ top no-repeat;}
+.TwoCon6left1btn li#li3.titOff{position:absolute;left:262px;top:0px;background:url("btnqhOff3.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/btnqhOff3.jpg*/ top no-repeat;}
+
+.TwoCon6left2{width:637px;height:95px;background:url("Two_44.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_44.jpg*/ left no-repeat;overflow:hidden;position:relative;z-index:10;}
+.TwoCon6left2 a.btnal{position:absolute;left:397px;top:53px;width:236px;height:42px;display:block;overflow:hidden;cursor:pointer;}
+
+.TwoCon6right1{position:absolute;left:0px;top:0px;width:320px;height:30px;line-height:18px;margin:0 auto;border-bottom:1px #e1e1e1 solid;}
+.TwoCon6right1 h3{width:306px;height:20px;line-height:20px;margin:0 auto;background:url("icoimg_03.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/icoimg_03.jpg*/ left no-repeat;text-indent:30px;text-align:left;color:#2e2119;font-family:"微软雅黑","黑体";font-size:16px;text-decoration:none;cursor:pointer;}
+.TwoCon6right2{position:absolute;left:5px;top:52px;width:320px;height:125px;margin:0 auto;border-bottom:1px #e1e1e1 dashed;overflow:hidden;z-index:10;}
+.TwoCon6right3{position:absolute;left:5px;top:180px;width:320px;height:124px;margin:5px auto;border-bottom:1px #e1e1e1 dashed;overflow:hidden;z-index:10;}
+.TwoCon6right4{position:absolute;left:5px;top:315px;width:320px;height:120px;margin:0 auto;overflow:hidden;z-index:10;}
+
+.TwoCon6right h3{width:306px;height:28px;line-height:28px;margin:0 auto;text-align:left;font-family:"宋体";font-size:16px;color:#333;overflow:hidden;float:left;z-index:10;}
+.TwoCon6right p{width:306px;line-height:18px;margin:0 auto;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;float:left;z-index:10;}
+.TwoCon6right .btnzxzx{position:absolute;left:0px;top:449px;width:328px;height:40px;background:url("Two_45.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_45.jpg*/ no-repeat;display:block;overflow:hidden;cursor:pointer;}
+.TwoBot{width:988px;height:4px;background:url("Two_48.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Two_48.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+
+/*Three css*/
+.ThreeTitle{width:988px;height:50px;background:url("Three_50.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Three_50.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon{width:988px;height:688px;margin:0 auto;background:url("Three_51.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Three_51.jpg*/ repeat-y;display:block;overflow:hidden;}
+.ThreeTitle .zxzx{position:absolute;left:846px;top:65px;width:124px;height:42px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+
+.ThreeCon1{width:946px;height:500px;background:url("Threeconbg_53.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeconbg_53.jpg*/ no-repeat;margin:5px auto 0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon1left{position:absolute;left:31px;top:5px;width:415px;height:489px;background:url("Threeimg1_56.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeimg1_56.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.ThreeCon1left a.btnzxzx{position:absolute;left:243px;top:358px;width:162px;height:28px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+.ThreeCon1right{position:absolute;right:19px;top:5px;width:422px;height:481px;background:url("Threeimg6_60.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeimg6_60.jpg*/ left top no-repeat;margin:0 auto;overflow:hidden;}
+.ThreeCon1right p{line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right1{position:absolute;top:45px;left:0px;width:224px;height:433px;background:url("Threeimg2_59.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeimg2_59.jpg*/ no-repeat;line-height:19px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right2{position:absolute;top:45px;left:228px;width:193px;height:201px;background:url("Threeimg3_61.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeimg3_61.jpg*/ no-repeat;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right3{position:absolute;top:253px;right:0px;width:194px;height:228px;background:url("Threeimg4_64.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Threeimg4_64.jpg*/ no-repeat;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right1 p{position:absolute;top:334px;left:13px;width:197px;height:78px;line-height:19px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right2 p{position:absolute;top:155px;left:6px;width:178px;height:36px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right3 p{position:absolute;top:165px;left:8px;width:181px;height:54px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#333;overflow:hidden;z-index:10;}
+.ThreeCon1right p a{color:#333;cursor:pointer;}
+.ThreeCon1right p a:hover{color:#ff0000;text-decoration:none;}
+.ThreeCon2{width:988px;height:67px;background:url("Three_55.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Three_55.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.ThreeCon3{width:988px;height:116px;background:url("Three_56.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Three_56.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon3C{position:absolute;top:24px;left:86px;width:810px;height:96px;margin:0 auto;display:block;overflow:hidden;}
+.ThreeCon3L{position:absolute;top:0px;left:4px;width:43px;height:144px;display:block;overflow:hidden;cursor:pointer;}
+.ThreeCon3R{position:absolute;top:0px;right:4px;width:43px;height:144px;display:block;overflow:hidden;cursor:pointer;}
+.ThreeCon3C ul{width:810px;height:96px;margin:0 auto;}
+.ThreeCon3C li{width:162px;height:96px;float:left;margin:0 auto;list-style:none;display:block;overflow:hidden;}
+.ThreeCon3C li img{width:146px;height:96px;margin:0 8px;border:0;}
+.ThreeBot{width:988px;height:68px;background:url("Three_57.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/Three_57.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+/*Weibo css*/
+#Weibo{width:988px;height:536px;margin:0 auto 10px auto;background:url("wsjimg_33-1.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/wsjimg_33.jpg*/ no-repeat;overflow:hidden;}
+.WeiboTitle{width:988px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.WeiboCon{width:980px;height:526px;margin:10px auto 0 auto;overflow:hidden;}
+.WeiboCon .WeiL{width:710px;height:526px;margin:0 auto;float:left;overflow:hidden;display:inline;}
+.WeiboCon .WeiLtop{width:710px;height:396px;margin:0 auto;display:block;overflow:hidden;}
+.WeiboCon .WeiLbot{width:708px;height:118px;margin:0 auto;margin-top:10px;border:1px solid #969696;overflow:hidden;}
+.WeiboCon .WeiLbot h3{width:690px;height:35px;line-height:35px;margin:0 auto;overflow:hidden;}
+.WeiboCon .WeiLbot h3 strong{width:160px;height:35px;line-height:35px;margin:0 auto 0 10px;text-align:left;font-family:"微软雅黑";font-size:16px;color:#000;float:left;overflow:hidden;}
+.WeiboCon .WeiLbot h3 a{width:60px;height:40px;line-height:40px;margin:0 auto;text-align:left;font-family:"宋体";font-size:14px;color:#666;float:right;overflow:hidden;}
+.WeiboCon .WeiLbot ul{width:690px;height:72px;line-height:24px;margin:5px auto 0 auto;display:block;}
+.WeiboCon .WeiLbot li{width:335px;height:24px;line-height:24px;background:url("dian_03-1.jpg")/*tpa=http://www.tianda120.com/subject/zhangcheng/images/dian_03.jpg*/ left center no-repeat;margin:0 auto;margin-left:10px;_margin-left:5px;float:left;display:block;overflow:hidden;}
+.WeiboCon .WeiLbot li a{width:320px;height:24px;line-height:24px;margin:0 auto;margin-left:15px;_margin-left:8px;text-align:left;text-align:left;font-family:"宋体";font-size:14px;color:#666;float:left;display:block;overflow:hidden;}
+.WeiboCon .WeiLbot li a:hover{color:#000;}
+.WeiboCon .WeiR{width:260px;height:526px;margin:0 auto;float:right;overflow:hidden;display:inline;background:#fff;}

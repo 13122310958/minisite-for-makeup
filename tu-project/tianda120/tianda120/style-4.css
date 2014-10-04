@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,font{padding:0; margin: 0; font-family: "微软雅黑", "宋体", Arial, Helvetica, sans-serif;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0; vertical-align:top;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal; font-size:100%;}
+ol,ul,li,dl,dt,dd{ list-style:none;}
+input,button,textarea,checkbox,select,radio,form{ vertical-align: top;}
+a{ color:#000; text-decoration:none;}
+a:link,a:visited{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.red,.red a{ color:#F00;}
+.left{ float:left;}
+.right{ float:right;}
+.autohei{ height:auto; overflow:hidden; zoom:1;}
+.clear{ font-size:0; line-height:0; clear:both; overflow:hidden; zoom:1;}
+.blank{ height:8px; font-size:0; line-height:0; clear:both; overflow:hidden;}
+body{margin:0 auto;font-size:12px;background:url("body_bg.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/body_bg.jpg*/ repeat;color:#fff}
+.bg{background:url("title_line.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/title_line.jpg*/ repeat-x center;}
+
+/*banner css*/
+.bannerzt{width:100%;height:717px;margin:0 auto;background:url("banner_bg.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/banner_bg.jpg*/ center top no-repeat;}
+.bannercon{width:100%;height:717px;margin:0 auto;overflow:hidden;}
+.bannercon1{height:249px;margin:0 auto;background:url("hsbanner_01.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/hsbanner_01.jpg*/ center top no-repeat;overflow:hidden;display:block;}
+.bannercon2{height:280px;margin:0 auto;background:url("hsbanner_02.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/hsbanner_02.jpg*/ center top no-repeat;overflow:hidden;display:block;}
+.bannercon2con{width:980px;height:280px;margin:0 auto;overflow:hidden;display:block;}
+.bannercon2con .bannerFont{width:480px;height:280px;margin:0 auto;float:left;}
+.bannercon2con #rotate{width:480px;height:260px;position:relative;margin:10px auto;white-space:nowrap;}
+.bannercon2con #rotate a{position:absolute;top:0px;left:0px;line-height:25px;height:30px;color:#ffdf00;white-space:nowrap;font-weight:bold;padding:3px 6px;font-size:14px;}
+.bannercon2con #rotate a:hover{border:1px solid #eee;background:#000;border-radius:5px;text-decoration:none;}
+.bannercon3{height:188px;margin:0 auto;background:url("hsbanner_03.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/hsbanner_03.jpg*/ center top no-repeat;overflow:hidden;display:block;}
+.bannercon3con{width:980px;height:188px;margin:0 auto;overflow:hidden;display:block;}
+.bannercon3con p{width:620px;height:100px;line-height:25px;margin:50px auto 0 auto;font-size:12px;font-family: "微软雅黑";color:#b1b1b1;float:left;overflow:hidden;display:block;}
+
+/*One css*/
+.OneTitle{width:980px;height:64px;margin:0 auto;margin-bottom:20px;}
+.OneCon{width:980px;height:437px;margin:0 auto;margin-bottom:20px;}
+.OneCon .OneL{width:334px;height:437px;margin:0 auto;float:left;overflow:hidden;}
+.OneCon .OneL span{width:334px;height:88px;line-height:22px;margin:0 auto;font-size:14px;color:#fef6c5;overflow:hidden;display:block;}
+.OneCon .OneleftBot{width:334px;height:349px;margin:0 auto;background:url("One_pic01.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/One_pic01.jpg*/ no-repeat;overflow:hidden;display:block;}
+.OneCon .OneleftBot p{width:310px;height:75px;margin:270px auto auto auto;line-height:25px;font-size:12px;font-family: "微软雅黑";color:#000;display:block;}
+.OneCon .OneR{width:590px;height:437px;background:url("One_pic02.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/One_pic02.jpg*/ no-repeat;float:right;overflow:hidden;display:block;}
+.OneCon .OneRleft{width:263px;height:437px;margin:0 auto;float:left;overflow:hidden;position:relative;overflow:hidden;}
+.OneCon .OneRright{width:327px;height:437px;margin:0 auto;float:right;text-align:left;font-size:12px;font-family: "微软雅黑";color:#000;overflow:hidden;position:relative;}
+.OneCon .OneR .OneRlefttop{position:absolute;left:9px;top:40px;width:253px;height:225px;display:block;overflow:hidden;}
+.OneCon .OneR .OneRlefttop p{width:253px;line-height:15px;margin:0 auto;text-align:left;font-size:12px;font-family: "微软雅黑";color:#d3d3d3;}
+.OneCon .OneR .OneRleftbot{position:absolute;left:9px;top:270px;width:253px;height:66px;display:block;overflow:hidden;}
+.OneCon .OneR .OneRleftbot p{width:253px;height:22px;line-height:22px;margin:0 auto;text-align:left;font-size:14px;font-family: "微软雅黑";color:#fef6c5;display:block;}
+.OneCon .OneR .OneRleftbot strong{height:22px;line-height:22px;text-align:left;font-weight:normal;font-size:18px;font-family: "微软雅黑";color:#f4d501;}
+.OneCon .OneRleft a.hsalbtn{position:absolute;left:0;bottom:0px;width:263px;height:46px;display:block;cursor:pointer;}
+.OneCon .OneRright p{position:absolute;left:0;bottom:0px;width:327px;height:70px;line-height:70px;text-align:center;font-size:12px;font-family: "微软雅黑";color:#000;}
+
+/*Two css*/
+.TwoTitle,.TwoCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.TwoCon .TwoL{width:393px;height:564px;}
+.TwoCon .TwoL ul{}
+.TwoCon .TwoL li{float:left;margin:0 1px 1px 0;display:inline;overflow:hidden;position:relative;}
+.TwoCon .TwoL li.li1{width:246px;height:163px;}
+.TwoCon .TwoL li.li2{width:145px;height:163px;}
+.TwoCon .TwoL li.li3{width:170px;height:124px;}
+.TwoCon .TwoL li.li4{width:220px;height:124px;}
+.TwoCon .TwoL li.li5{width:392px;height:164px;}
+.TwoCon .TwoL span{color:#b0b0b0;line-height:24px;width:383px;height:96px;}
+.TwoCon .TwoL span strong{display:block;font-weight:normal;font-size:16px;color:#f4d501;}
+.TwoCon .TwoR{width:570px;height:564px;}
+.TwoCon .TwoR .TRtop{height:390px;margin-bottom:20px;}
+.TwoCon .TwoR .TRtop span{width:292px;height:151px;padding:10px;color:#b0b0b0;line-height:24px;float:left;}
+.TwoCon .TwoR .TRtop span strong{display:block;font-weight:normal;font-size:16px;color:#f4d501;}
+.TwoCon .TwoR .TRtop ul{}
+.TwoCon .TwoR .TRtop li{float:left;margin:0 2px 2px 0;display:inline;overflow:hidden;position:relative;}
+.TwoCon .TwoR .TRtop li.li1{width:256px;height:171px;}
+.TwoCon .TwoR .TRtop li.li2{width:310px;height:216px;}
+.TwoCon .TwoR .TRtop li.li3{width:256px;height:216px;}
+.TwoCon .TwoR .TRbot li{width:154px;height:154px;float:left;margin:0 2px 2px 0;display:inline;overflow:hidden;position:relative;}
+
+.TwoCon .TwoR .TRbot span{width:246px;padding:5px;color:#b0b0b0;line-height:24px;float:left;}
+.TwoCon .TwoR .TRbot span strong{display:block;font-weight:normal;font-size:16px;color:#f4d501;}
+
+.TwoCon li .rsp{width:100%;height:100%;line-height:22px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:0px;}
+.TwoCon li .text{position:absolute;left:0;bottom:5px;width:100%;line-height:22px;overflow:hidden;}
+.TwoCon li .text h3{width:100%;line-height:22px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.TwoCon li .text a{width:100%;line-height:22px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.TwoCon li .text a:hover{width:100%;line-height:22px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+/*Three css*/
+.ThreeTitle,.ThreeCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.ThreeCon{height:880px;position:relative;}
+.ThreeCon .ThC{width:230px;height:230px;position:absolute;top:0;left:0;background:#000;}
+.ThreeCon .ThC span{padding:10px;color:#f4d501;line-height:24px;display:block}
+
+.ThreeCon ul{}
+.ThreeCon li{position:absolute;}
+.ThreeCon li.T01{top:0;left:250px;width:380px;height:380px;}
+.ThreeCon li.T02{top:0;right:0;width:330px;height:230px;}
+.ThreeCon li.T03{top:250px;right:0;width:330px;height:130px;}
+.ThreeCon li.T04{top:250px;left:0;width:230px;height:230px;}
+.ThreeCon li.T05{top:400px;left:250px;width:198px;height:198px;}
+.ThreeCon li.T06{top:400px;left:468px;width:230px;height:230px;}
+.ThreeCon li.T07{top:400px;right:0;width:262px;height:230px;}
+.ThreeCon li.T08{bottom:0;left:0;width:230px;height:380px;}
+.ThreeCon li.T09{bottom:0;left:250px;width:198px;height:262px;}
+.ThreeCon li.T10{bottom:0;left:468px;width:230px;height:230px;}
+.ThreeCon li.T11{bottom:0;right:0;width:262px;height:230px;}
+.ThreeCon ul li .rsp{width:100%;height:100%;line-height:25px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:0px;}
+.ThreeCon ul li .text{position:absolute;left:0;bottom:5px;width:100%;line-height:25px;overflow:hidden;}
+.ThreeCon ul li .text h3{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.ThreeCon ul li .text a{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.ThreeCon ul li .text a:hover{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+
+/*Four css*/
+.FourTitle,.FourCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.FourCon .FourL{width:425px;height:531px;}
+.FourCon .FourR{width:545px;height:531px;}
+.slide-banner{position:relative;width:545px;height:531px;}
+.slide-banner .slider{position:absolute;}
+.slide-banner .slider li{width:545px;height:417px;position:relative;cursor:pointer;}
+.slide-banner .btn-slide,.slide-banner .slider-bg{position:absolute;left:0;bottom:0;z-index:6;width:545px;height:112px;}
+.slide-banner .btn-slide li{font-size:12px;font-weight:bold;cursor:pointer;float:left;color:#fff;width:180px;height:112px;margin:0 auto;}
+.slide-banner .btn-slide li img{border:1px solid #fff;width:170px;height:110px;margin:0 5px;float:left;}
+.slide-banner .btn-slide .active{border:none;width:180px;height:112px;position:relative;margin:0 auto;cursor:pointer;float:left;}
+.slide-banner .btn-slide .active img{border:1px solid #e6cc21;width:170px;height:110px;color:#e6cc21;margin:0 5px;}
+.slide-banner .btn-slide li.first img{border:1px solid #fff;width:170px;height:110px;margin:0 auto 0 0;float:left;}
+.slide-banner .slider-bg{z-index:4;background:#000;opacity:0.3;filter:alpha(opacity=30);}
+#sliderbox ul li .rsp{width:100%;height:100%;line-height:25px;overflow:hidden;position:absolute;bottom:0px;left:0px;display:none;}
+#sliderbox ul li:hover,#sliderbox ul li.sfhover{width:545px;height:417px;position:relative;cursor:pointer;}
+#sliderbox ul li:hover .rsp,#sliderbox ul li.sfhover .rsp{width:100%;height:100%;_width:545px;_height:417px;line-height:25px;overflow:hidden;position:absolute;bottom:0px;left:0px;z-index:1000;display:block;}
+#sliderbox ul li:hover .text,#sliderbox ul li.sfhover .text{position:absolute;left:0;bottom:6px;width:100%;height:100px;background:#000;FILTER:alpha(opacity=60);opacity:0.60;line-height:25px;text-align:center;color:#fff;font-family:"microsoft yahei";font-size:14px;text-decoration:none;overflow:hidden;}
+
+/*Five css*/
+.FiveTitle,.FiveCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.FiveCon .FiveL{width:380px;}
+.FiveCon .FiveL ul{width:380px;height:328px;margin:0 auto;overflow:hidden;}
+.FiveCon .FiveL ul li{position:relative;width:380px;height:328px;}
+.FiveCon .FiveL span{width:370px;padding:5px;color:#fff7c3;line-height:24px;display:block;}
+.FiveCon .FiveL ul li .rsp{position:absolute;bottom:0px;left:0px;width:380px;height:35px;line-height:25px;overflow:hidden;background:#000;}
+.FiveCon .FiveL ul li .text{position:absolute;left:0;bottom:5px;width:100%;height:25px;line-height:25px;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;overflow:hidden;}
+.FiveCon .FiveL ul li .text h3{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+
+.FiveCon .FiveR{width:580px;}
+.FiveCon .FiveR span{width:560px;padding:10px;color:#fff7c3;line-height:24px;display:block;}
+.FiveCon .FiveR ul{width:580px;height:328px;position:relative;}
+.FiveCon .FiveR li{position:absolute;display:block;}
+.FiveCon .FiveR li.FT01{top:0;left:0;width:175px;height:235px;}
+.FiveCon .FiveR li.FT02{top:139px;left:108px;width:140px;height:189px;}
+.FiveCon .FiveR li.FT03{top:0;left:189px;width:163px;height:218px;}
+.FiveCon .FiveR li.FT04{bottom:0;left:0;width:129px;height:164px;}
+.FiveCon .FiveR li.FT05{bottom:0;left:230px;width:217px;height:162px;}
+.FiveCon .FiveR li.FT06{top:12px;right:0;width:216px;height:161px;}
+.FiveCon .FiveR li.FT07{bottom:0;right:0;width:147px;height:159px;}
+
+.FiveCon .FiveR ul li .rsp{width:100%;height:100%;line-height:25px;overflow:hidden;position:absolute;bottom:0px;left:0px;z-index:100;display:none}
+.FiveCon .FiveR ul li:hover,.FiveCon .FiveR ul li.sfhover {position:absolute;display:block;z-index:1000;zoom:1;}
+.FiveCon .FiveR ul li:hover .rsp,.FiveCon .FiveR ul li.sfhover .rsp{position:absolute;bottom:0px;left:0px;width:100%;height:120px;line-height:25px;display:block}
+.FiveCon .FiveR ul li:hover .text,.FiveCon .FiveR ul li.sfhover .text{position:absolute;left:0;bottom:0px;background:#000;FILTER:alpha(opacity=50);opacity:0.5;width:100%;line-height:25px;text-align:center;color:#fff;font-family:"microsoft yahei";font-size:14px;text-decoration:none;z-index:1000;zoom:1;display:block}
+
+/*Six css*/
+.SixTitle,.SixCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.SixCon ul{width:980px;height:749px;position:relative;}
+.SixCon li{position:absolute;}
+.SixCon li.ST01{top:0;left:0;width:435px;height:257px;}
+.SixCon li.ST02{top:0;right:0;width:535px;height:257px;}
+.SixCon li.ST03{bottom:0;left:0;width:265px;height:482px;}
+.SixCon li.ST03 img{border:0;width:265px;height:482px;}
+.SixCon li.ST04{bottom:0;left:275px;width:260px;height:481px;}
+.SixCon li.ST04 img{border:0;width:260px;height:481px;}
+.SixCon li.ST05{top:267px;right:0;width:435px;height:191px;}
+.SixCon li.ST06{bottom:0;right:0;width:435px;height:280px;}
+.SixCon ul li .rsp{width:100%;height:100%;line-height:25px;overflow:hidden;position:absolute;background:#000;bottom:0px;left:0px;}
+.SixCon ul li .text{position:absolute;left:0;bottom:5px;width:100%;line-height:25px;overflow:hidden;}
+.SixCon ul li .text h3{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.SixCon ul li .text a{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+.SixCon ul li .text a:hover{width:100%;line-height:25px;margin:0 auto;text-align:center;color:#FFFFFF;font-family:"microsoft yahei";font-size:14px;text-decoration:none;}
+
+/*Seven css*/
+.SevenTitle,.SevenCon{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.SevenCon{width:980px;height:616px;background:url("Seven_bg.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/Seven_bg.jpg*/ no-repeat;}
+.SevenCon .Font01{width:545px;margin-top:30px;}
+.SevenCon .Ftitle{height:30px;line-height:25px;font-size:14px;color:#e2ce39;margin-left:10px;width:480px;}
+
+.SevenCon .Ftitle span{width:28px;height:24px;background:url("SevenF01.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/SevenF01.jpg*/ no-repeat;display:block;float:left;margin:8px 10px 0 0;_display:inline;}
+.SevenCon .Ftitle span.F02{background:url("SevenF02.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/SevenF02.jpg*/ no-repeat;}
+.SevenCon .Ftitle span.F03{background:url("SevenF03.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/SevenF03.jpg*/ no-repeat;}
+.SevenCon .Ftitle span.F04{background:url("SevenF04.jpg")/*tpa=http://www.tianda120.com/subject/hansheng/images/SevenF04.jpg*/ no-repeat;}
+
+.SevenCon .Fcon{width:480px;line-height:24px;margin:10px 0 0 48px;}
+.SevenCon .Fcon strong{font-size:14px;color:#ffde03;}
+
+/*Weibo css*/
+.WeiboTitle{width:980px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.WeiboCon{width:980px;height:537px;margin:0 auto;margin-bottom:20px;overflow:hidden;}
+.WeiboCon .WeiL{width:720px;height:537px;margin:0 auto;float:left;overflow:hidden;display:inline;}
+.WeiboCon .WeiL ul{width:720px;height:237px;margin:0 auto;display:block;margin-bottom:10px;}
+.WeiboCon .WeiL li{width:170px;height:237px;float:left;margin-right:10px;display:inline;}
+.WeiboCon .WeiL li img{width:170px;height:237px;border:0;}
+.blank10{width:100%;height:10px;margin:0 auto;display:block;}
+.WeiboCon .WeiLcon{width:720px;height:290px;margin:0 auto;overflow:hidden;}
+/*.WeiboCon .WeiL form{width:710px;margin:10px 10px 0 0;}
+.WeiboCon .WeiL .txt{width:710px;height:189px;float:right;display:inline;background:url(../images/txt_bg.jpg) no-repeat;border:none;font:12px/18px "微软雅黑", "宋体";color:#666;}
+.WeiboCon .WeiL .btn{width:70px;height:28px;float:right;display:inline;background:url(../images/btn.jpg) no-repeat;border:none;margin-top:10px;cursor:pointer;}
+*/
+.WeiboCon .WeiR{width:260px;height:536px;margin:0 auto;float:right;overflow:hidden;display:inline;background:#fff;}

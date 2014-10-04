@@ -1,0 +1,173 @@
+@charset "utf-8";
+/******************通用代码***********************/
+html,body,ul,li,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,form{margin:0; padding:0}
+ul,li{list-style:none;}
+.clear{ clear:both; height:0; overflow:hidden}
+.l{margin:0 auto;float:left;overflow:hidden}
+.r{margin:0 auto;float:right;overflow:hidden}
+a{text-decoration:none;color:#666;}
+a:hover{color:#000;text-decoration:none;}
+img{vertical-align:top; border:0}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+.clear{ font-size:0; line-height:0; clear:both; overflow:hidden; zoom:1;}
+.blank{ height:8px; font-size:0; line-height:0; clear:both; overflow:hidden;}
+body{font-family:"宋体";font-size:12px;background:#d5d5d5;color:#666;margin:0 auto;}
+.rsp{width:100%;height:28px;line-height:28px;overflow:hidden;position:absolute;background:#d5d5d5;bottom:0px;left:0px;}
+.text{position:absolute;left:0;bottom:0px;width:100%;height:28px;line-height:28px;overflow:hidden;}
+.text h3{width:100%;height:28px;line-height:28px;margin:0 auto;text-align:center;color:#fff;font-family:"宋体";font-size:12px;text-decoration:none;cursor:pointer;}
+.sfhover .rsp{width:100%;height:28px;line-height:28px;overflow:hidden;position:absolute;background:#d5d5d5;bottom:0px;left:0px;}
+.sfhover .text{position:absolute;left:0;bottom:0px;width:100%;height:28px;line-height:28px;overflow:hidden;}
+.sfhover .text h3{width:100%;height:28px;line-height:28px;margin:0 auto;text-align:center;color:#fff;font-family:"宋体";font-size:12px;text-decoration:none;cursor:pointer;}
+
+/*banner css*/
+#bannerzt{width:100%;height:523px;margin:0 auto;background:#d5d5d5;position:relative;z-index:99;}
+.bannerzt{width:100%;height:523px;margin:0 auto;background:#d5d5d5;position:relative;z-index:99;}
+.banner_con{height:483px;margin:0 auto;overflow:hidden;display:block;}
+.banner1{height:100px;background:url("sypimg_01.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_01.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner2{height:100px;background:url("sypimg_02.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_02.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner3{height:100px;background:url("sypimg_03.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_03.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+.banner4{height:100px;background:url("sypimg_04.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_04.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;position:relative;}
+.banner4 .btnzx{position:absolute;top:0px;left:10%;width:500px;height:100px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+.banner5{height:83px;background:url("sypimg_05.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_05.jpg*/ center top no-repeat;margin:0 auto;display:block;overflow:hidden;}
+#daohang{position:absolute;top:483px;left:0px;margin:0 auto;z-index:99999;background:url("menubg.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/menubg.jpg*/ repeat-x;width:100%;height:40px;}
+#dhmenu{z-index:99999;background:url("wsjimg_11.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/wsjimg_11.jpg*/ repeat-x;width:100%;height:40px;margin:0 auto;}
+.menu{width:980px;height:40px;margin:0 auto;z-index:99999;}
+.menu a{width:140px;height:40px;line-height:40px;margin:0 23px 0 0px;background:none;text-align:center;border:0;font-family:"微软雅黑";font-size:16px;color:#fff;display:block;z-index:99999;text-decoration:none;overflow:hidden;cursor:pointer;float:left;}
+.menu a.titOn,.menu a:hover{width:140px;height:40px;line-height:40px;background:url("menubgOn.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/menubgOn.jpg*/ no-repeat;margin:0 23px 0 0px;color:#e2c897;text-align:center;font-family:"微软雅黑";font-size:16px;text-decoration:none;display:block;z-index:99999;overflow:hidden;float:left;}
+.menu a.last{margin:0 auto;margin-right:0;overflow:hidden;cursor:pointer;float:right;}
+.menu a.lasta.titOn,.menu a.lasta:hover{margin:0 auto;margin-right:0;overflow:hidden;cursor:pointer;float:right;}
+#One,#Two,#Three,#Four,#Five,#Six,#Seven,#Eight,#Weibo,#Wqhg{width:980px;margin:0 auto;}
+.btnzxzx{width:110px;height:32px;display:block;overflow:hidden;position:absolute;top:15px;right:42px;cursor:pointer;}
+/*One css*/
+.OneTitle{width:980px;height:92px;background:url("sypimg_08.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_08.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.OneCon{width:980px;height:396px;background:url("sypimg_10.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_10.jpg*/ no-repeat;margin:0 auto;font-family:"宋体";font-size:13px;color:#feffdf;text-align:left;position:relative;overflow:hidden;}
+.OneCon .One1{position:absolute;top:0px;left:1px;width:242px;height:195px;overflow:hidden;}
+.OneCon .One1 .trans{position:absolute;right:0px;top:195px;width:242px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One1 a:hover{position:absolute;right:0px;top:0px;width:242px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One2{position:absolute;top:0px;left:247px;width:241px;height:195px;line-height:20px;overflow:hidden;}
+.OneCon .One2 .trans{position:absolute;right:0px;top:195px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One2 a:hover{position:absolute;right:0px;top:0px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One3{position:absolute;top:200px;left:1px;width:241px;height:196px;overflow:hidden;}
+.OneCon .One3 .trans{position:absolute;right:0px;top:196px;width:241px;height:196px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One3 a:hover{position:absolute;right:0px;top:0px;width:241px;height:196px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One4{position:absolute;top:0px;right:1px;width:241px;height:195px;line-height:20px;overflow:hidden;}
+.OneCon .One4 .trans{position:absolute;right:0px;top:195px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One4 a:hover{position:absolute;right:0px;top:0px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One5{position:absolute;top:201px;left:492px;width:241px;height:195px;overflow:hidden;}
+.OneCon .One5 .trans{position:absolute;right:0px;top:195px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One5 a:hover{position:absolute;right:0px;top:0px;width:241px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One6{position:absolute;top:201px;right:1px;width:242px;height:195px;overflow:hidden;}
+.OneCon .One6 .trans{position:absolute;right:0px;top:195px;width:242px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .One6 a:hover{position:absolute;right:0px;top:0px;width:242px;height:195px;display:block;border:0;overflow:hidden;cursor:pointer;}
+.OneCon .trans,.OneCon a:hover{background:#000;filter:alpha(opacity=50);opacity:0.5;font-family:"宋体";font-size:14px;color:#fff;text-align:left;display:block;overflow:hidden;}
+.OneCon .trans h3,.OneCon a:hover h3{width:100%;height:20px;line-height:20px;margin:50px auto 0 auto;text-align:center;font-weight:bold;font-family:"宋体";font-size:14px;color:#fff;display:block;overflow:hidden;}
+.OneCon .trans p,.OneCon a:hover p{width:100%;height:20px;line-height:20px;margin:0 auto;font-family:"宋体";font-size:14px;color:#fff;text-align:center;overflow:hidden;}
+
+.OneCon2{width:995px;height:143px;background:url("sypimg_12_15.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_12_15.jpg*/ left top no-repeat;margin:0 auto;position:relative;overflow:hidden;}
+.OneCon2 .T01{position:absolute;top:36px;left:32px;width:466px;height:44px;line-height:22px;text-align:left;font-family:"宋体";font-size:13px;color:#5c5c5c;overflow:hidden;}
+.OneCon2 .T02{position:absolute;top:92px;left:60px;width:466px;height:44px;line-height:22px;text-align:left;font-family:"宋体";font-size:13px;color:#fff;overflow:hidden;}
+.OneCon2 .zxzx{position:absolute;left:672px;top:98px;width:300px;height:34px;display:block;overflow:hidden;cursor:pointer;}
+
+/*Two css*/
+.TwoTitle{width:980px;height:118px;background:url("sypimg_14.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_14.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon1{width:980px;height:118px;background:url("sypimg_15.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_15.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;}
+.TwoCon1 .zxzx{position:absolute;left:848px;top:48px;width:95px;height:31px;display:block;overflow:hidden;cursor:pointer;}
+.TwoCon2{width:980px;height:279px;background:url("sypimg_18.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_18.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;}
+.TwoCon2 .T01{position:absolute;top:28px;left:464px;width:466px;height:44px;line-height:22px;text-indent:2em;text-align:left;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.TwoCon2 .T02{position:absolute;top:135px;left:464px;width:466px;height:44px;line-height:22px;text-indent:2em;text-align:left;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.TwoCon2 .T03{position:absolute;top:235px;left:464px;width:466px;height:44px;line-height:22px;text-indent:2em;text-align:left;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.TwoCon3{width:980px;height:118px;background:url("sypimg_22.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_22.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon4{width:980px;height:58px;background:url("sypimg_25.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_25.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon5{width:980px;height:58px;background:url("sypimg_29.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_29.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon6{width:980px;height:58px;background:url("sypimg_33.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_33.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon7{width:980px;height:59px;background:url("sypimg_35.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_35.jpg*/ no-repeat;margin:0 auto;overflow:hidden;}
+.TwoCon8{width:980px;height:116px;background:url("sypimg_41.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_41.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.TwoCon8 .zxzx{position:absolute;left:726px;top:78px;width:242px;height:33px;display:block;overflow:hidden;cursor:pointer;}
+.TwoCon9{width:980px;height:412px;background:url("sypimg_43.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_43.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.TwoCon9left{position:absolute;left:25px;top:60px;width:320px;height:280px;overflow:hidden;z-index:10;}
+.TwoCon9left a,.TwoCon9left a.titOff{width:320px;height:80px;line-height:80px;margin:0 auto;text-align:left;font-family:"微软雅黑";font-size:24px;color:#666;display:block;overflow:hidden;float:left;}
+.TwoCon9left a.titOn,.TwoCon9left a:hover{width:320px;height:80px;line-height:80px;margin:0 auto;text-align:left;font-family:"微软雅黑";font-size:24px;color:#000;display:block;overflow:hidden;float:left;}
+.TwoCon9left a#li1{position:absolute;left:0px;top:0px;}
+.TwoCon9left a#li2{position:absolute;left:0px;top:90px;}
+.TwoCon9left a#li3{position:absolute;left:0px;top:170px;}
+.TwoCon9right{position:absolute;right:0px;top:0px;width:595px;height:359px;overflow:hidden;z-index:10;}
+.TwoCon9right #qh1{position:absolute;left:0px;top:0px;width:595px;height:359px;background:url("qhimg1_48.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/qhimg1_48.jpg*/ top no-repeat;overflow:hidden;z-index:10;}
+.TwoCon9right #qh2{position:absolute;left:0px;top:0px;width:595px;height:359px;background:url("qhimg2_03.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/qhimg2_03.jpg*/ top no-repeat;overflow:hidden;z-index:10;}
+.TwoCon9right #qh3{position:absolute;left:0px;top:0px;width:595px;height:359px;background:url("qhimg33_03.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/qhimg33_03.jpg*/ top no-repeat;overflow:hidden;z-index:10;}
+
+.TwoCon9right h3{position:absolute;left:5px;top:10px;width:590px;height:25px;line-height:25px;text-align:left;font-family:"微软雅黑";font-size:16px;color:#000;overflow:hidden;z-index:10;}
+.TwoCon9right p{position:absolute;left:5px;top:156px;width:590px;height:73px;line-height:24px;text-align:left;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;z-index:10;}
+.TwoCon9 a.zxzx{position:absolute;left:735px;top:370px;width:172px;height:28px;display:block;overflow:hidden;cursor:pointer;}
+
+/*Three css*/
+.ThreeTitle{width:980px;height:75px;background:url("sypimg_46.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_46.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeTitle .zxzx{position:absolute;left:846px;top:65px;width:124px;height:42px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+
+.ThreeCon1{width:980px;height:237px;background:url("sypimg_48.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_48.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon1 p.p1{position:absolute;top:178px;left:490px;width:442px;height:18px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;z-index:10;}
+.ThreeCon1 p.p2{position:absolute;top:196px;left:490px;width:442px;height:18px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;z-index:10;}
+
+.ThreeCon2{width:980px;height:156px;background:url("sypimg_49.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_49.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon2 p.p1{position:absolute;top:103px;left:490px;width:442px;height:18px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;z-index:10;}
+.ThreeCon2 p.p2{position:absolute;top:121px;left:490px;width:442px;height:18px;line-height:18px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;z-index:10;}
+
+.ThreeCon4{width:980px;height:88px;background:url("sypimg_50.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_50.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon5{width:980px;height:317px;background:url("sypimg_51.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_51.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon5 p{position:absolute;top:120px;left:506px;width:465px;height:155px;line-height:25px;text-align:left;font-family:"宋体";font-size:13px;color:#666;overflow:hidden;z-index:10;}
+.ThreeCon5 p strong{width:465px;height:25px;line-height:25px;margin:0 auto;text-align:left;font-family:"宋体";font-size:14px;color:#666;display:block;overflow:hidden;}
+.ThreeCon5 .zxzx{position:absolute;left:370px;top:303px;width:245px;height:33px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+
+.ThreeCon6{width:980px;height:358px;background:url("sypimg_52.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_52.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.ThreeCon6 p{position:absolute;top:105px;left:85px;width:465px;height:125px;line-height:25px;text-align:left;font-family:"宋体";font-size:13px;color:#666;overflow:hidden;z-index:10;}
+.ThreeCon6 p strong{width:465px;height:25px;line-height:25px;margin:0 auto;text-align:left;font-family:"宋体";font-size:14px;color:#666;display:block;overflow:hidden;}
+.ThreeCon6 .zxzx{position:absolute;left:370px;top:303px;width:245px;height:33px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+
+/*Four css*/
+.FourTitle{width:980px;height:84px;background:url("sypimg_53.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_53.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;}
+.FourTitle p{position:absolute;left:165px;top:20px;width:500px;height:38px;line-height:19px;color:#fff;text-indent:10px;text-align:left;font-family:"宋体";font-size:12px;margin:0 auto;overflow:hidden;}
+.FourCon{width:980px;height:407px;background:url("sypimg_54.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_54.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.FourCon .T01{position:absolute;top:92px;left:15px;width:218px;height:38px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#996600;overflow:hidden;}
+.FourCon .T02{position:absolute;top:155px;left:15px;width:218px;height:20px;line-height:20px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.FourCon .T03{position:absolute;top:175px;left:15px;width:218px;height:20px;line-height:20px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.FourCon .T04{position:absolute;top:214px;left:15px;width:218px;height:60px;line-height:20px;text-align:left;font-weight:normal;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.FourCon .T04 strong{width:218px;height:20px;line-height:20px;margin:0 auto;text-align:left;font-family:"宋体";font-size:12px;color:#996600;display:block;overflow:hidden;}
+.FourCon .T05{position:absolute;top:92px;left:730px;width:218px;height:38px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#996600;overflow:hidden;}
+.FourCon .T06{position:absolute;top:155px;left:730px;width:218px;height:20px;line-height:20px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.FourCon .T07{position:absolute;top:175px;left:730px;width:218px;height:20px;line-height:20px;text-align:left;font-weight:bold;font-family:"宋体";font-size:14px;color:#666;overflow:hidden;}
+.FourCon .T08{position:absolute;top:214px;left:730px;width:218px;height:60px;line-height:20px;text-align:left;font-weight:normal;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.FourCon .T08 strong{width:218px;height:20px;line-height:20px;margin:0 auto;text-align:left;font-family:"宋体";font-size:12px;color:#996600;display:block;overflow:hidden;}
+.FourCon  a.zxzx{position:absolute;top:358px;left:267px;width:460px;height:32px;display:block;overflow:hidden;cursor:pointer;}
+
+/*Five css*/
+.FiveTitle{width:980px;height:87px;background:url("sypimg_55.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_55.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;}
+.FiveCon1{width:980px;height:229px;background:url("sypimg_56.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_56.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.FiveCon1 p{position:absolute;top:5px;left:70px;width:840px;height:44px;line-height:22px;text-align:center;font-family:"微软雅黑";font-size:14px;color:#000;overflow:hidden;z-index:10;}
+
+.FiveCon1 .T01{position:absolute;top:63px;left:45px;width:165px;height:34px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#000;overflow:hidden;}
+.FiveCon1 .T02{position:absolute;top:130px;left:45px;width:165px;height:34px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#000;overflow:hidden;}
+
+.FiveCon2{width:980px;height:126px;background:url("sypimg_57.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_57.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.FiveCon2 a.zxzx{position:absolute;top:0px;left:479px;width:500px;height:58px;display:block;overflow:hidden;cursor:pointer;}
+
+.FiveCon3{width:980px;height:64px;background:url("sypimg_58.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_58.jpg*/ no-repeat;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+
+/*Six css*/
+.SixTitle{width:980px;height:83px;margin:0 auto;background:url("sypimg_59.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_59.jpg*/ no-repeat;overflow:hidden;position:relative;}
+.SixTitle .zxzx{position:absolute;right:0px;top:45px;width:210px;height:27px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+.SixCon1{width:980px;height:288px;background:url("sypimg_60.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_60.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.SixCon1 p{width:950px;height:25px;line-height:25px;margin:16px auto 0 auto;text-align:left;font-family:"微软雅黑";font-size:14px;color:#000;overflow:hidden;z-index:10;}
+.SixCon1 .T01{position:absolute;top:210px;left:14px;width:210px;height:51px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.SixCon1 .T02{position:absolute;top:210px;left:263px;width:210px;height:51px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.SixCon1 .T03{position:absolute;top:210px;left:512px;width:210px;height:51px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.SixCon1 .T04{position:absolute;top:210px;left:759px;width:210px;height:51px;line-height:17px;text-align:left;font-family:"宋体";font-size:12px;color:#666;overflow:hidden;}
+.SixCon2{width:980px;height:221px;background:url("sypimg_61.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_61.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.SixCon2 p{position:absolute;top:108px;left:480px;width:455px;height:85px;line-height:25px;text-align:left;font-family:"微软雅黑";font-size:14px;color:#262626;overflow:hidden;z-index:10;}
+.SixCon3{width:980px;height:291px;background:url("sypimg_63.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_63.jpg*/ no-repeat;color:#fff;margin:0 auto;overflow:hidden;position:relative;z-index:10;}
+.SixCon .zxzx{position:absolute;left:584px;top:509px;width:342px;height:77px;margin:0 auto;display:block;overflow:hidden;cursor:pointer;}
+
+/*Seven css*/
+.SevenCon{width:980px;height:153px;background:url("sypimg_64.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/sypimg_64.jpg*/ no-repeat;margin:0 auto 10px auto;overflow:hidden;position:relative;text-align:left;font-family:"宋体";font-size:12px;color:#cf995d;}
+.SevenCon .SCon{width:840px;height:50px;margin:85px 60px 0 80px;}
+.SevenCon .SCon ul{width:840px;height:50px;margin:0 auto;}
+.SevenCon .SCon ul li{width:280px;height:24px;line-height:24px;background:url("dian_03.jpg")/*tpa=http://www.tianda120.com/subject/shuangyanpi/images/dian_03.jpg*/ left center no-repeat;margin:0 auto;list-style:none;float:left;display:block;overflow:hidden;}
+.SevenCon .SCon ul li a{width:220px;height:24px;line-height:24px;margin:0 auto 0 10px;text-align:left;font-family:"宋体";font-size:14px;color:#000;float:left;display:block;overflow:hidden;}

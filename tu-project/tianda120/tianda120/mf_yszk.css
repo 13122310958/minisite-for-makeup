@@ -1,0 +1,51 @@
+body{ margin:0; font-size:12px; color:#353535; background:#590000;}
+img{ border:none;}
+
+a.lianjie:link,a.lianjie:visited{ color:#535353; text-decoration:none;}
+a.lianjie:hover{ color:#000; text-decoration:underline;}
+.clear{ clear:both;}
+.banner{ height:442px; margin:0 auto;}
+.top1{ height:80px; margin:0 auto; background:url("yszk_01.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_01.jpg*/ center no-repeat;}
+.top2{ height:83px; margin:0 auto; background:url("yszk_02.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_02.jpg*/ center no-repeat;}
+.top3{ height:91px; margin:0 auto; background:url("yszk_03.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_03.jpg*/ center no-repeat;}
+.top4{ height:94px; margin:0 auto; background:url("yszk_04.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_04.jpg*/ center no-repeat;}
+.top5{ height:94px; margin:0 auto; background:url("yszk_05.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_05.jpg*/ center no-repeat;}
+.yszk_top{ width:962px; height:345px; margin:0 auto; background:url("yszk_07.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_07.jpg*/ no-repeat;}
+.yszk_bj{ width:962px; margin:0 auto; background:url("yszk_10.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_10.jpg*/;}
+.js_news{ width:900px; height:305px; margin:0 auto; padding-top:32px;}
+.js{ width:351px; height:305px; margin:0; float:left; display:inline;}
+.news_bao{ width:500px; height:240px; margin:0; float:left; display:inline;}
+.news_top{ width:500px; height:60px; margin-left:30px; margin-top:80px; line-height:20px;}
+.news{ width:500px; height:155px; margin-left:30px; margin-top:10px;}
+.news_left{ width:227px; height:155px; margin:0; float:left; display:inline;}
+.news_left_top{ width:227px; height:23px; margin:0;}
+.news_left_bottom{ width:227px; height:120px; margin-top:5px;}
+.news_left_bottom ul{ margin:0; padding:0; list-style-type:none;}
+.news_left_bottom ul li{ background:url("yszk_20.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_20.jpg*/ no-repeat; background-position:0px 8px; padding-left:10px;line-height:24px;}
+.news_right{ width:227px; height:155px; margin-left:20px; float:left; display:inline;}
+.news_right_1{ width:225px; height:48px; margin-top:10px;}
+.news_right_1_left{ width:68px; height:48px; margin:0; float:left; display:inline;}
+.news_right_1_right{ width:145px; height:48px; margin-left:10px; float:left; display:inline;}
+.news_right_2{ width:225px; height:48px; margin-top:10px;}
+
+.img_li_bao{width:900px; height:605px; margin:0 auto; padding-top:20px;}
+.img_li_bao_img1{ width:900px; height:97px; margin:0; background:url("yszk_60.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_60.jpg*/ no-repeat; }
+.img_li_bao_img2{ width:900px; height:162px; margin:0; background:url("yszk_61.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_61.jpg*/ no-repeat;}
+.img_li_bao_img3{ width:900px; height:173px; margin:0; background:url("yszk_62.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_62.jpg*/ no-repeat;}
+.img_li_bao_img4{ width:900px; height:186px; margin:0; background:url("yszk_63.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_63.jpg*/ no-repeat;}
+.licheng{ width:903px; height:516px; margin:0 auto; margin-top:20px;}
+#zhuanjia{ width:936px; height:584px; margin:0 auto;}
+.yiqi{ width:936px; height:390px; margin:0 auto;}
+.zhuanli{ width:936px; height:356px; margin:0 auto; margin-top:20px;}
+.rongyu{ width:936px; height:450px; margin:0 auto; margin-top:25px;}
+.wenzhang_top{ width:910px; height:25px; margin:0 auto; margin-top:50px; text-align:center; font-size:16px; font-weight:bold; color:#4c3434;}
+.wenzhang{ width:910px; height:119px; margin:0 auto; margin-top:5px;}
+.wenzhang ul{ margin:0; padding:0; list-style-type:none;}
+.wenzhang ul li{ font-size:13px
+; background:url("yszk_20.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_20.jpg*/ no-repeat; background-position:0px 8px; padding-left:10px;line-height:26px;}
+.wenzhang1{ width:315px; height:119px; margin:0; float:left; display:inline; background:url("yszk_55.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_55.jpg*/ right no-repeat;}
+.wenzhang2{ width:300px; height:119px; margin-left:5px; float:left; display:inline; background:url("yszk_55.jpg")/*tpa=http://www.tianda120.com/subject/yszk/images/yszk_55.jpg*/ right no-repeat;}
+.wenzhang3{ width:285px; height:119px; margin-left:5px; float:left; display:inline;}
+.yongxin{ width:936px; height:286px; margin:0 auto;}
+.meiti{ width:936px; height:291px; margin:0 auto; margin-top:30px;}
+.bottom{ width:962px; height:56px; margin:0 auto;}
